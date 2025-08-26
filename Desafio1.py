@@ -15,7 +15,6 @@ while opcao != 0:
           ==========================================
 """)
     opcao = int(input("Digite o numero de acordo com a transação bancaria que voce deseja fazer: "))
-
     if opcao == 1:
         if Limite_De_Saques >= Numero_de_saques:
             print("o numero limite de saques foi atingido")
